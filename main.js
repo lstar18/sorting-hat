@@ -1,17 +1,22 @@
+const arrayOfStudents = [
+    
+]
+
+
 const hideJumbo = () => {
     document.getElementById('hogwartsJumbo').classList.add('invisible');
     document.getElementById('studentForm').classList.remove('invisible');
 };
 document.getElementById("startSorting").addEventListener('click', hideJumbo);
 const generateStudent = () => {
+    arrayOfStudents.push({name:student,});
     let student = document.getElementById('firstYearsName').value;
     document.getElementById('studentForm').classList.add('invisible');
     console.log(student);
 }
 document.getElementById('sortButton').addEventListener('click', generateStudent);
 
-const students = [
-]
+const students = []
 // const printToDom = (divId, textToPrint) => {
 //     const selectedDiv = document.getElementById(divId);
 //     selectedDiv.innerHTML = textToPrint
