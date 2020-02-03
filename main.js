@@ -9,10 +9,11 @@ const hideJumbo = () => {
 };
 document.getElementById("startSorting").addEventListener('click', hideJumbo);
 const generateStudent = () => {
-    arrayOfStudents.push({name:student,});
     let student = document.getElementById('firstYearsName').value;
     document.getElementById('studentForm').classList.add('invisible');
-    console.log(student);
+    console.log(student)
+    arrayOfStudents.push({name:student})
+    console.log(arrayOfStudents)
 }
 document.getElementById('sortButton').addEventListener('click', generateStudent);
 
