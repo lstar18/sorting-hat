@@ -2,7 +2,9 @@ body {
     background-color: white;
 }
 
-.card {
-    display: flex;
-    flex-wrap: wrap;
+#cardSpacing {
+   margin: 2px;
+   margin-bottom: 10px;
+   max-width: 200px;
+   justify-content: center;
 }
