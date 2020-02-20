@@ -5,6 +5,7 @@ This project allows the user to put any name into the Harry Potter sorting hat i
 
 ## Screenshot
 ![Image of sorting hat project](./screenshots/sorting_hat.png)
+
 ![Image of sorting hat project](./screenshots/sorting_hat_2.png)
 
 ## How to Run
