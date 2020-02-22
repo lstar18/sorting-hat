@@ -4,7 +4,7 @@
 This project allows the user to put any name into the Harry Potter sorting hat in order to determine in which house the person would placed.  The name and the house the person is randomly assigned to is housed in a card and at any point, someone may be expelled from the house.
 
 ## Screenshot
-![Image of sorting hat project](./screenshots/sorting_hat.png)
+![Image of sorting hat project](./screenshots/Sorting_hat.png)
 
 ![Image of sorting hat project](./screenshots/sorting_hat_2.png)
 
